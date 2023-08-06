@@ -1,0 +1,205 @@
+header{
+    display: flex;
+    background-color:goldenrod;
+    height:70px;
+    margin-left:1px;
+}
+header img{
+    background-color: goldenrod;
+    border-radius: 50px;
+}
+nav ul li {
+    display: inline-block;
+    padding:1px;
+}
+nav ul li a {
+    margin:20px;
+    padding: 5px;
+   color: wheat;
+   text-decoration: none;
+   font-size: large;
+   border-style: groove;
+   border-radius: 20px;
+   border-color: white;
+   background-color: rgb(162, 21, 194);
+}
+
+body{
+    background-image: url('images.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*----------------*/
+.grid{
+    display: grid;
+    display: flex;
+    
+}
+#about{
+    text-align: center;
+}
+.para{
+    margin-left: 10px;
+}
+.m img{
+    margin-left: 40px;
+    margin-bottom: 30px;
+    border-radius: 40px;
+}
+/*----------------------------*/
+#menu{
+    text-align: center;
+}
+.grid1{
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 125px;
+}
+
+.item3{
+    height:100px;
+    padding: 30px;
+}
+.item2{
+    padding: 30px;
+}
+.item1{
+    padding: 30px;
+}
+.item4{
+    padding: 30px;
+}
+.item5{
+    padding: 30px;
+}
+.item6{
+    padding: 30px;
+}
+
+/*----------------*/
+.grid2{
+    display:flex;
+    flex-wrap: nowrap;
+    margin-left: 40px;
+}
+a{
+    color: aliceblue;
+background-color: blueviolet;
+height: 150px;
+padding: 10px;
+border-radius: 20px;
+}
+#prod3{
+    height:250px;
+    width:250px;
+}
+#products{
+    text-align: center;
+    padding: 30px;
+   
+}
+.prod1{
+    padding:40px;
+    background-color:  rgb(162, 21, 194);
+    border-radius: 30px;
+}
+
+.prod2{
+   margin-left: 20px;
+    padding:40px;
+    background-color:  rgb(162, 21, 194);
+    border-radius: 30px;
+}
+.prod3{
+   margin-left: 20px;
+    padding:40px;
+    background-color:  rgb(162, 21, 194);
+    border-radius: 30px;
+}
+
+/*--------------------*/
+#move{
+    width: 100%;
+    height:700px;
+    overflow:auto auto;
+    white-space: nowrap;
+}
+#move .slide{
+    display: inline;  
+}
+#vedios h2{
+    text-align: center;
+}
+
+/*-----------------*/
+.row{
+    display:flex;
+}
+.inputbox{
+    color:azure;
+    height:80px;
+    width:80px;
+    margin:50px;
+    border-radius: 20px;
+
+}
+
+ form div {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    
+}
+#contact h2{
+    text-align: center;
+}
+ form{
+    height: 30%;
+    width: 30%;
+    border-radius: 30px;
+    background-color: rgb(244, 250, 182);
+    margin-left: 80px;
+ }
+
+/*---------------*/
+.grid3{
+    display: grid;
+    display: flex;
+}
+ #reviews div{
+height:280px;
+width:200px;
+padding:20px;
+ }
+ .rev1{
+    background-color: blueviolet;
+  margin-left: 55px;
+ }
+ .rev2{
+    background-color: blueviolet;
+ }
+ .rev3{
+    background-color: blueviolet;
+ }
+ .rev4{
+    background-color: blueviolet;
+ }
+ #reviews p{
+    color:rgb(247, 185, 28);
+    
+ }
+
+#reviews h2{
+    text-align: center;
+}
+
+/*-----------*/
+#follow p{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    padding:20px;
+}
